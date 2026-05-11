@@ -591,3 +591,232 @@
     color: #fff;
     border-color: #268E5D;
 }
+
+/* ── TESTIMONIALS ── */
+.testimonials-section {
+    background: #fff;
+}
+
+.testi-rating-card {
+    background: #f0f4f8;
+    border-radius: 16px;
+    padding: 28px 24px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.testi-approved-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 0.7rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: #268E5D;
+    background: #dcfce7;
+    border-radius: 999px;
+    padding: 4px 12px;
+}
+
+.testi-score {
+    font-size: 3.5rem;
+    font-weight: 800;
+    color: #268E5D;
+    line-height: 1;
+}
+
+.testi-stars {
+    font-size: 1.4rem;
+    color: #f59e0b;
+}
+
+.testi-trusted {
+    font-size: 0.8rem;
+    color: #268E5D;
+    margin: 0;
+}
+
+.testi-platforms {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.platform-tag {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    font-size: 0.72rem;
+    font-weight: 600;
+    color: #374151;
+    background: #fff;
+    border: 1px solid #e5e7eb;
+    border-radius: 6px;
+    padding: 4px 10px;
+}
+
+.testi-avatars {
+    display: flex;
+    align-items: center;
+    margin-top: 4px;
+}
+
+.testi-avatars img {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    margin-left: -8px;
+    object-fit: cover;
+}
+
+.testi-avatars img:first-child {
+    margin-left: 0;
+}
+
+.avatar-more {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background: #268E5D;
+    color: #fff;
+    font-size: 0.6rem;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: -8px;
+    border: 2px solid #fff;
+}
+
+.press-quote-card {
+    background: #f8f9fa;
+    border-radius: 14px;
+    padding: 20px;
+}
+
+.press-quote-green {
+    background: #268E5D;
+    color: #fff;
+}
+
+.press-quote-green .press-quote-text {
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.press-quote-green .press-source {
+    color: rgba(255, 255, 255, 0.75);
+}
+
+.press-quote-green .quote-icon {
+    color: rgba(255, 255, 255, 0.4);
+}
+
+.press-quote-green .stars {
+    color: #fde68a;
+}
+
+.quote-icon {
+    font-size: 1.4rem;
+    color: #d1d5db;
+    line-height: 1;
+    margin-bottom: 8px;
+}
+
+.press-quote-text {
+    font-size: 0.78rem;
+    color: #374151;
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+.press-source {
+    font-size: 0.72rem;
+    font-weight: 700;
+    color: #9ca3af;
+    letter-spacing: 0.5px;
+}
+
+.feedback-label {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 0.72rem;
+    font-weight: 700;
+    letter-spacing: 1.2px;
+    color: #374151;
+}
+
+.feedback-dot {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: #268E5D;
+    display: inline-block;
+}
+
+.carousel-nav-btn {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    border: 1px solid #e5e7eb;
+    background: #fff;
+    color: #374151;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.85rem;
+    cursor: pointer;
+    transition: background 0.2s, color 0.2s, border-color 0.2s;
+}
+
+.carousel-nav-btn:hover {
+    background: #268E5D;
+    color: #fff;
+    border-color: #268E5D;
+}
+
+.student-card {
+    background: #fff;
+    border: 1px solid #e5e7eb;
+    border-radius: 14px;
+    padding: 22px;
+    height: 100%;
+    transition: box-shadow 0.2s, transform 0.2s;
+}
+
+.student-card:hover {
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+    transform: translateY(-2px);
+}
+
+.student-review {
+    font-size: 0.82rem;
+    color: #6b7280;
+    line-height: 1.6;
+    margin-bottom: 0;
+}
+
+.student-avatar {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    object-fit: cover;
+    flex-shrink: 0;
+}
+
+.student-name {
+    font-size: 0.82rem;
+    font-weight: 700;
+    color: #1a1a1a;
+    line-height: 1.2;
+}
+
+.student-role {
+    font-size: 0.7rem;
+    color: #9ca3af;
+}
