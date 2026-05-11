@@ -469,3 +469,125 @@
     color: #9ca3af;
     margin-top: 2px;
 }
+
+/* ── FEATURED INSTRUCTORS ── */
+.instructors-section {
+    background: #fff;
+}
+
+.instructor-card {
+    background: #fff;
+    border-radius: 14px;
+    overflow: hidden;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.07);
+    transition: box-shadow 0.25s, transform 0.25s;
+    height: 100%;
+}
+
+.instructor-card:hover {
+    box-shadow: 0 8px 28px rgba(0, 0, 0, 0.12);
+    transform: translateY(-3px);
+}
+
+.instructor-img-wrap {
+    flex-shrink: 0;
+    width: 170px;
+}
+
+.instructor-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.instructor-body {
+    padding: 20px 18px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.instructor-tag {
+    display: inline-block;
+    font-size: 0.65rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: #268E5D;
+    background: #dcfce7;
+    border-radius: 999px;
+    padding: 3px 10px;
+    margin-bottom: 8px;
+}
+
+.instructor-name {
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: #1a1a1a;
+    margin-bottom: 4px;
+}
+
+.instructor-desc {
+    font-size: 0.78rem;
+    color: #6b7280;
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+
+.instructor-stat {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1px;
+}
+
+.istat-num {
+    font-size: 0.95rem;
+    font-weight: 700;
+    color: #1a1a1a;
+    line-height: 1.1;
+}
+
+.istat-label {
+    font-size: 0.62rem;
+    font-weight: 600;
+    letter-spacing: 0.8px;
+    color: #9ca3af;
+}
+
+.instructor-explore {
+    font-size: 0.82rem;
+    font-weight: 600;
+    color: #268E5D;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    transition: gap 0.2s;
+}
+
+.instructor-explore:hover {
+    gap: 8px;
+    color: #1f7a4f;
+}
+
+.social-btn {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 1px solid #e5e7eb;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.8rem;
+    color: #6b7280;
+    text-decoration: none;
+    transition: background 0.2s, color 0.2s, border-color 0.2s;
+}
+
+.social-btn:hover {
+    background: #268E5D;
+    color: #fff;
+    border-color: #268E5D;
+}
