@@ -84,13 +84,11 @@
 
 .hero-btn-primary {
     background: #fff;
-    color: #1a1a1a !important;
+    color: #268E5D !important;
     border: none;
     font-size: 0.95rem;
-    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.15);
-    transition:
-        transform 0.2s,
-        box-shadow 0.2s;
+    box-shadow: 0 4px 14px rgba(220, 215, 215, 0.87);
+    transition: transform 0.2s, box-shadow 0.2s;
 }
 
 .hero-btn-primary:hover {
@@ -189,7 +187,6 @@
     flex-wrap: wrap;
     gap: 12px;
     padding-top: 20px;
-    border-top: 1px solid rgba(255, 255, 255, 0.2);
 }
 
 .hero-feature-item {
@@ -258,7 +255,8 @@
 .course-img-wrap {
     position: relative;
     flex-shrink: 0;
-    width: 160px;
+    width: 220px;
+    min-height: 240px;
 }
 
 .course-img {
@@ -270,13 +268,13 @@
 
 .course-badge {
     position: absolute;
-    top: 10px;
-    left: 10px;
-    font-size: 0.62rem;
+    top: 12px;
+    left: 12px;
+    font-size: 0.65rem;
     font-weight: 700;
-    letter-spacing: 0.8px;
-    padding: 3px 9px;
-    border-radius: 4px;
+    letter-spacing: 1px;
+    padding: 4px 12px;
+    border-radius: 999px;
     text-transform: uppercase;
     color: #fff;
 }
@@ -286,7 +284,7 @@
 }
 
 .course-badge.new {
-    background: #0ea5e9;
+    background: #ef4444;
 }
 
 .course-badge.certificate {
@@ -294,7 +292,7 @@
 }
 
 .course-badge.popular {
-    background: #ef4444;
+    background: #f97316;
 }
 
 /* Body side */
@@ -308,10 +306,13 @@
 
 /* Level badge */
 .level-badge {
-    font-size: 0.7rem;
+    font-size: 0.72rem;
     font-weight: 600;
-    padding: 2px 10px;
+    padding: 3px 10px;
     border-radius: 999px;
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
 }
 
 .level-badge.beginner {
@@ -320,13 +321,13 @@
 }
 
 .level-badge.intermediate {
-    background: #fef3c7;
-    color: #92400e;
+    background: #ccfbf1;
+    color: #0f766e;
 }
 
 .level-badge.advanced {
-    background: #fee2e2;
-    color: #991b1b;
+    background: #dbeafe;
+    color: #1e40af;
 }
 
 .course-duration {
@@ -335,7 +336,7 @@
 }
 
 .course-card-title {
-    font-size: 0.95rem;
+    font-size: 1.05rem;
     font-weight: 700;
     color: #1a1a1a;
     margin-bottom: 6px;
@@ -395,28 +396,29 @@
 .btn-join {
     display: inline-flex;
     align-items: center;
-    gap: 4px;
+    gap: 6px;
     background: #268E5D;
     color: #fff;
-    font-size: 0.75rem;
+    font-size: 0.82rem;
     font-weight: 600;
-    padding: 5px 12px;
+    padding: 8px 18px;
     border-radius: 999px;
     text-decoration: none;
-    transition: background 0.2s;
+    transition: background 0.2s, transform 0.15s;
     white-space: nowrap;
 }
 
 .btn-join:hover {
     background: #1f7a4f;
     color: #fff;
+    transform: translateY(-1px);
 }
 
 /* Price */
 .course-price {
-    font-size: 1rem;
+    font-size: 1.15rem;
     font-weight: 800;
-    color: #1a1a1a;
+    color: #268E5D;
 }
 
 .course-price.free {
