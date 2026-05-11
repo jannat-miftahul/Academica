@@ -398,3 +398,74 @@
     background: #268E5D;
     color: #fff;
 }
+
+/* ── SHARED SECTION HEADINGS ── */
+.section-title {
+    font-size: 2rem;
+    color: #1a1a1a;
+}
+
+.section-underline {
+    width: 48px;
+    height: 3px;
+    background: #268E5D;
+    border-radius: 2px;
+    margin-top: 8px;
+}
+
+.section-subtitle {
+    font-size: 0.9rem;
+    color: #268E5D;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* ── COURSE CATEGORIES ── */
+.categories-section {
+    background: #f0f4f8;
+}
+
+.cat-card {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    background: #fff;
+    border-radius: 12px;
+    padding: 16px 20px;
+    text-decoration: none;
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.06);
+    transition: box-shadow 0.2s, transform 0.2s;
+}
+
+.cat-card:hover {
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+    transform: translateY(-2px);
+}
+
+.cat-icon {
+    width: 44px;
+    height: 44px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    font-size: 1.2rem;
+    color: #fff;
+}
+
+.cat-name {
+    font-size: 0.9rem;
+    font-weight: 700;
+    color: #1a1a1a;
+    line-height: 1.2;
+}
+
+.cat-count {
+    font-size: 0.68rem;
+    font-weight: 600;
+    letter-spacing: 0.8px;
+    color: #9ca3af;
+    margin-top: 2px;
+}
