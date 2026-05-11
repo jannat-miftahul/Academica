@@ -820,3 +820,151 @@
     font-size: 0.7rem;
     color: #9ca3af;
 }
+
+/* ── CTA SECTION ── */
+.cta-section {
+    background: #eef5f0;
+}
+
+.cta-img-wrap {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+}
+
+.cta-main-img {
+    width: 100%;
+    border-radius: 16px;
+    object-fit: cover;
+    max-height: 340px;
+    display: block;
+}
+
+.cta-float-card {
+    position: absolute;
+    background: #fff;
+    border-radius: 12px;
+    padding: 10px 14px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.12);
+    font-size: 0.78rem;
+}
+
+.cta-float-top {
+    top: 14px;
+    right: -16px;
+}
+
+.cta-float-bottom-left {
+    bottom: 16px;
+    left: 10px;
+}
+
+.cta-float-card i {
+    font-size: 1.3rem;
+}
+
+.cta-float-num {
+    font-size: 1rem;
+    font-weight: 800;
+    color: #1a1a1a;
+    line-height: 1.1;
+}
+
+.cta-float-label {
+    font-size: 0.65rem;
+    color: #6b7280;
+}
+
+.cta-play-btn {
+    width: 32px;
+    height: 32px;
+    background: #268E5D;
+    border-radius: 50%;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.75rem;
+    flex-shrink: 0;
+}
+
+.cta-cert-badge {
+    position: absolute;
+    bottom: 16px;
+    right: 10px;
+    background: #268E5D;
+    color: #fff;
+    font-size: 0.7rem;
+    font-weight: 700;
+    padding: 6px 14px;
+    border-radius: 999px;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.cta-deco-circle {
+    position: absolute;
+    bottom: -30px;
+    right: -30px;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 2px dashed rgba(38, 142, 93, 0.3);
+    pointer-events: none;
+    z-index: 0;
+}
+
+.cta-tag {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 0.72rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: #268E5D;
+    background: #dcfce7;
+    border-radius: 999px;
+    padding: 5px 14px;
+}
+
+.cta-heading {
+    font-size: clamp(1.5rem, 3vw, 2rem);
+    color: #1a1a1a;
+    line-height: 1.25;
+}
+
+.cta-desc {
+    font-size: 0.9rem;
+    color: #6b7280;
+    line-height: 1.6;
+    max-width: 480px;
+}
+
+.cta-feature-card {
+    background: #fff;
+    border-radius: 12px;
+    padding: 14px 16px;
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.06);
+    height: 100%;
+}
+
+.cta-feat-icon {
+    font-size: 1.2rem;
+    color: #268E5D;
+    margin-top: 2px;
+    flex-shrink: 0;
+}
+
+.cta-feat-text {
+    font-size: 0.8rem;
+    color: #374151;
+    margin: 0;
+    line-height: 1.5;
+}
