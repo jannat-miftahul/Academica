@@ -143,3 +143,258 @@
         padding: 16px 10px;
     }
 }
+
+/* ── HERO FEATURES STRIP ── */
+.hero-features {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 12px;
+    padding-top: 20px;
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.hero-feature-item {
+    font-size: 0.82rem;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.88);
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.hero-feature-item i {
+    font-size: 0.95rem;
+    opacity: 0.85;
+}
+
+.hero-feature-dot {
+    font-size: 0.45rem;
+    color: rgba(255, 255, 255, 0.4);
+}
+
+
+
+/* ── FEATURED COURSES SECTION ── */
+.courses-section {
+    background: #f8f9fa;
+}
+
+.courses-title {
+    font-size: 2rem;
+    color: #1a1a1a;
+}
+
+.courses-underline {
+    width: 48px;
+    height: 3px;
+    background: #268E5D;
+    border-radius: 2px;
+    margin-top: 8px;
+}
+
+.courses-subtitle {
+    font-size: 0.9rem;
+    color: #268E5D;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Course Card */
+.course-card {
+    background: #fff;
+    border-radius: 14px;
+    overflow: hidden;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.07);
+    transition: box-shadow 0.25s, transform 0.25s;
+    height: 100%;
+}
+
+.course-card:hover {
+    box-shadow: 0 8px 28px rgba(0, 0, 0, 0.12);
+    transform: translateY(-3px);
+}
+
+/* Image side */
+.course-img-wrap {
+    position: relative;
+    flex-shrink: 0;
+    width: 160px;
+}
+
+.course-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.course-badge {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-size: 0.62rem;
+    font-weight: 700;
+    letter-spacing: 0.8px;
+    padding: 3px 9px;
+    border-radius: 4px;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.course-badge.featured {
+    background: #268E5D;
+}
+
+.course-badge.new {
+    background: #0ea5e9;
+}
+
+.course-badge.certificate {
+    background: #f59e0b;
+}
+
+.course-badge.popular {
+    background: #ef4444;
+}
+
+/* Body side */
+.course-body {
+    padding: 16px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* Level badge */
+.level-badge {
+    font-size: 0.7rem;
+    font-weight: 600;
+    padding: 2px 10px;
+    border-radius: 999px;
+}
+
+.level-badge.beginner {
+    background: #dcfce7;
+    color: #166534;
+}
+
+.level-badge.intermediate {
+    background: #fef3c7;
+    color: #92400e;
+}
+
+.level-badge.advanced {
+    background: #fee2e2;
+    color: #991b1b;
+}
+
+.course-duration {
+    font-size: 0.75rem;
+    color: #6b7280;
+}
+
+.course-card-title {
+    font-size: 0.95rem;
+    font-weight: 700;
+    color: #1a1a1a;
+    margin-bottom: 6px;
+    line-height: 1.3;
+}
+
+.course-card-desc {
+    font-size: 0.78rem;
+    color: #6b7280;
+    line-height: 1.5;
+    margin-bottom: 8px;
+}
+
+/* Instructor */
+.instructor-avatar {
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.instructor-name {
+    font-size: 0.78rem;
+    font-weight: 600;
+    color: #1a1a1a;
+    line-height: 1.2;
+}
+
+.instructor-role {
+    font-size: 0.7rem;
+    color: #9ca3af;
+}
+
+/* Stars */
+.stars {
+    font-size: 0.8rem;
+    color: #f59e0b;
+    line-height: 1;
+}
+
+.star-empty {
+    color: #d1d5db;
+}
+
+.rating-num {
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: #374151;
+}
+
+.lessons {
+    font-size: 0.72rem;
+    color: #9ca3af;
+}
+
+/* Join button */
+.btn-join {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    background: #268E5D;
+    color: #fff;
+    font-size: 0.75rem;
+    font-weight: 600;
+    padding: 5px 12px;
+    border-radius: 999px;
+    text-decoration: none;
+    transition: background 0.2s;
+    white-space: nowrap;
+}
+
+.btn-join:hover {
+    background: #1f7a4f;
+    color: #fff;
+}
+
+/* Price */
+.course-price {
+    font-size: 1rem;
+    font-weight: 800;
+    color: #1a1a1a;
+}
+
+.course-price.free {
+    color: #268E5D;
+}
+
+/* Explore all button */
+.explore-all-btn {
+    border-color: #268E5D;
+    color: #268E5D;
+    font-size: 0.9rem;
+    transition: background 0.2s, color 0.2s;
+}
+
+.explore-all-btn:hover {
+    background: #268E5D;
+    color: #fff;
+}
