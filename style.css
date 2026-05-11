@@ -3,6 +3,20 @@
 }
 
 /* ── NAVBAR ── */
+.navbar-wrapper {
+    background-color: #268E5D;
+    padding: 14px 16px 0;
+    z-index: 1030;
+}
+
+.rounded-navbar {
+    border-radius: 50px;
+    padding-left: 16px;
+    padding-right: 16px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.12);
+    transition: box-shadow 0.3s;
+}
+
 .navbar-brand {
     font-size: 1.4rem;
     letter-spacing: -0.5px;
@@ -32,6 +46,9 @@
     background-color: #268E5D;
     padding: 80px 20px 60px;
     position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .badge {
@@ -39,14 +56,15 @@
     align-items: center;
     gap: 8px;
     background: rgba(255, 255, 255, 0.15);
-    border: 1px solid rgba(255, 255, 255, 0.25);
+    border: 1px solid rgba(255, 255, 255, 0.3);
     color: #fff;
-    font-size: 0.75rem;
+    font-size: 0.72rem;
     font-weight: 600;
     letter-spacing: 1.5px;
     padding: 8px 20px;
     border-radius: 999px;
     backdrop-filter: blur(6px);
+    text-transform: uppercase;
 }
 
 .hero-title {
@@ -82,16 +100,34 @@
 
 .hero-btn-secondary {
     font-size: 0.95rem;
-    border-color: rgba(255, 255, 255, 0.6);
-    color: #fff !important;
-    transition:
-        background 0.2s,
-        transform 0.2s;
+    font-weight: 600;
+    color: #fff;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background: none;
+    border: none;
+    padding: 0;
+    transition: opacity 0.2s;
 }
 
 .hero-btn-secondary:hover {
-    background: rgba(255, 255, 255, 0.15);
-    transform: translateY(-2px);
+    opacity: 0.85;
+}
+
+.hero-play-circle {
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.35);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.9rem;
+    flex-shrink: 0;
+    backdrop-filter: blur(4px);
 }
 
 /* ── STATS BAR ── */
@@ -99,9 +135,10 @@
     background: rgba(255, 255, 255, 0.12);
     border: 1px solid rgba(255, 255, 255, 0.2);
     border-radius: 16px;
-    padding: 28px 20px;
+    padding: 24px 10px;
     backdrop-filter: blur(8px);
-    max-width: 680px;
+    width: 100%;
+    max-width: 700px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -111,7 +148,7 @@
 }
 
 .stat-number {
-    font-size: 2rem;
+    font-size: 2.2rem;
     font-weight: 800;
     color: #fff;
     line-height: 1.1;
